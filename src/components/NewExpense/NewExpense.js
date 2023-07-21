@@ -24,7 +24,7 @@ function NewExpense(props) {
   if (addExpenseHandler) {
     return (
       <div className="new-expense">
-        <button onClick={showAddExpense}>Add expense</button>;
+        <button onClick={showAddExpense}>Add expense</button>
       </div>
     );
   } else {
